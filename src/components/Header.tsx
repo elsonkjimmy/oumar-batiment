@@ -34,10 +34,10 @@ export function Header({ onNavigate, onFocusSearch }: HeaderProps) {
               e.preventDefault();
               handleLinkClick('accueil');
             }}
-            aria-label="OUMAR BÂTIMENT — Retour à l’accueil"
+            aria-label="QUINCAILLERIE OUMAR — Retour à l’accueil"
           >
             <span className="brand-emblem" aria-hidden="true">
-              OB
+              QO
             </span>
             <span className="brand-text">
               <span className="brand-name">{BUSINESS_INFO.name}</span>

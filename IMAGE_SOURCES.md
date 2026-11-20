@@ -1,6 +1,6 @@
-# OUMAR BÂTIMENT — Sources & Références des Images
+# QUINCAILLERIE OUMAR — Sources & Références des Images
 
-Ce document répertorie l'origine des photographies utilisées sur le site vitrine **OUMAR BÂTIMENT**, en distinguant strictement :
+Ce document répertorie l'origine des photographies utilisées sur le site vitrine **QUINCAILLERIE OUMAR**, en distinguant strictement :
 1. **Photographies réelles des stocks et contextes métier** fournies pour la boutique (matériel électrique, plomberie et outillerie/quincaillerie).
 2. **Produits de marques officielles vérifiées** (fabricants ou distributeurs agréés avec marque et référence exacte).
 3. **Photographies représentatives de catégorie et d'architecture** (images libres de droits sans filigrane illustrant les domaines d'activité, sans prétendre représenter un article exact en stock).

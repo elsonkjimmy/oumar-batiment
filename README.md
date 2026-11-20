@@ -1,6 +1,6 @@
-# OUMAR BÂTIMENT — Matériaux & Solutions
+# QUINCAILLERIE OUMAR — Quincaillerie & Matériaux de Chantier
 
-Site vitrine **mobile-first** (Phase 1 Frontend) conçu pour **OUMAR BÂTIMENT** (Cameroun).
+Site vitrine **mobile-first** (Phase 1 Frontend) conçu pour **QUINCAILLERIE OUMAR** (Cameroun).
 
 ## Aperçu technique
 

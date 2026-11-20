@@ -244,9 +244,9 @@ button {
 
 .brand-name {
   font-family: var(--font-serif);
-  font-size: 1.15rem;
+  font-size: clamp(0.92rem, 3.8vw, 1.15rem);
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
   line-height: 1.1;
   color: var(--color-emerald-900);
   white-space: nowrap;

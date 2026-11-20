@@ -1,7 +1,7 @@
 export const BUSINESS_INFO = {
-  name: 'OUMAR BÂTIMENT',
-  subtitle: 'Matériaux & Solutions',
-  tagline: 'Tout pour construire. Tout pour embellir.',
+  name: 'QUINCAILLERIE OUMAR',
+  subtitle: 'Quincaillerie & Matériaux de Chantier',
+  tagline: 'Tout pour équiper vos chantiers. Tout pour construire.',
   owner: 'M. Oumar',
   country: 'Cameroun',
   phoneDisplay: '+237 770 368 05',
@@ -108,7 +108,7 @@ export function getProductWhatsAppUrl(
   const lines: string[] = [
     greeting,
     '',
-    'Je vous contacte depuis le site *OUMAR BÂTIMENT* pour commander / me renseigner sur cet article :',
+    'Je vous contacte depuis le site *QUINCAILLERIE OUMAR* pour commander / me renseigner sur cet article :',
     '',
     `📦 *PRODUIT :* ${productName}`,
   ];
@@ -160,9 +160,9 @@ export function getGeneralWhatsAppUrl(): string {
   const message = [
     greeting,
     '',
-    'Je vous contacte depuis le site de votre entreprise *OUMAR BÂTIMENT*.',
+    'Je vous contacte depuis le site de votre établissement *QUINCAILLERIE OUMAR*.',
     '',
-    '🏗️ J’ai un projet de travaux / chantier au Cameroun et je souhaite échanger avec vous pour :',
+    '🏗️ J’ai un besoin en outillage / quincaillerie / matériaux de chantier au Cameroun et je souhaite échanger avec vous pour :',
     '• Obtenir un devis ou des tarifs',
     '• Vérifier la disponibilité de matériaux et équipements',
     '',
@@ -181,7 +181,7 @@ export function getCategoryWhatsAppUrl(categoryName: string): string {
   const message = [
     greeting,
     '',
-    'Je consulte le catalogue *OUMAR BÂTIMENT* et je m’intéresse aux articles du pôle :',
+    'Je consulte le catalogue *QUINCAILLERIE OUMAR* et je m’intéresse aux articles du pôle :',
     `📁 *${categoryName}*`,
     '',
     `🔗 *Lien vers le rayon :* ${siteUrl}`,
