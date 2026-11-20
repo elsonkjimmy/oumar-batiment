@@ -1,4 +1,5 @@
 import { MessageCircle } from 'lucide-react';
+import { asset } from '../utils/assets';
 import { BUSINESS_INFO, getGeneralWhatsAppUrl } from '../utils/whatsapp';
 
 export function AboutSection() {
@@ -7,7 +8,7 @@ export function AboutSection() {
       <div className="container split-grid">
         <div className="about-image-frame">
           <img
-            src="/images/categories/decoration-finition.jpg"
+            src={asset('/images/categories/decoration-finition.jpg')}
             alt="Aménagement intérieur moderne avec finitions marbre et équipements sanitaires"
             loading="lazy"
           />

@@ -1,4 +1,5 @@
 import { ArrowRight, MessageCircle } from 'lucide-react';
+import { asset } from '../utils/assets';
 import { BUSINESS_INFO, getGeneralWhatsAppUrl } from '../utils/whatsapp';
 
 interface HeroProps {
@@ -47,7 +48,7 @@ export function Hero({ onExploreCatalog }: HeroProps) {
             <div className="hero-visual">
               <div className="hero-main-frame">
                 <img
-                  src="/images/categories/hero-architecture.jpg"
+                  src={asset('/images/categories/hero-architecture.jpg')}
                   alt="Architecture intérieure contemporaine avec revêtements pierre et finitions soignées"
                   loading="eager"
                 />

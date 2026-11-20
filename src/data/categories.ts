@@ -1,4 +1,5 @@
 import { Category } from '../types/catalog';
+import { asset } from '../utils/assets';
 
 export const CATEGORIES: Category[] = [
   {
@@ -7,7 +8,7 @@ export const CATEGORIES: Category[] = [
     shortName: 'Électricité',
     description:
       'Câblage en couronnes (1.5, 2.5, 4 mm²), tableaux modulaires, disjoncteurs, gaines ICTA, prises étanches et bornes de raccordement rapide.',
-    image: '/images/categories/materiel-electricite.jpg',
+    image: asset('/images/categories/materiel-electricite.jpg'),
     imageAlt: 'Matériel d’installation électrique : câbles, disjoncteurs, gaines et appareillage',
   },
   {
@@ -16,7 +17,7 @@ export const CATEGORIES: Category[] = [
     shortName: 'Plomberie',
     description:
       'Tubes PER & multicouche, évacuation PVC, vannes d’arrêt 1/4 tour, raccords laiton, flexibles inox, siphons et robinetterie de marque.',
-    image: '/images/categories/materiel-plomberie.jpg',
+    image: asset('/images/categories/materiel-plomberie.jpg'),
     imageAlt: 'Matériel de plomberie : tubes PER, raccords laiton, tuyaux PVC, vanne et mitigeur',
   },
   {
@@ -25,7 +26,7 @@ export const CATEGORIES: Category[] = [
     shortName: 'Quincaillerie',
     description:
       'Visserie, boulonnerie, chevilles, outillage à main (marteaux, pinces, clés, mètres) et outillage électroportatif de référence.',
-    image: '/images/categories/materiel-outillage.jpg',
+    image: asset('/images/categories/materiel-outillage.jpg'),
     imageAlt: 'Outillage et quincaillerie : marteau, pinces, clé à molette, mètre et visserie',
   },
   {
@@ -34,7 +35,7 @@ export const CATEGORIES: Category[] = [
     shortName: 'Carrelage',
     description:
       'Carreaux céramiques, grès cérame effet marbre ou pierre naturelle, colles haute adhérence et joints hydrofuges pour sols et murs.',
-    image: '/images/categories/carrelage-revetements.jpg',
+    image: asset('/images/categories/carrelage-revetements.jpg'),
     imageAlt: 'Surface en pierre naturelle et revêtement céramique',
   },
   {
@@ -43,7 +44,7 @@ export const CATEGORIES: Category[] = [
     shortName: 'Décoration',
     description:
       'Matériaux de finition, aménagements de salle de bain, profilés, peintures et luminaires pour valoriser vos espaces.',
-    image: '/images/categories/decoration-finition.jpg',
+    image: asset('/images/categories/decoration-finition.jpg'),
     imageAlt: 'Intérieur architectural soigné avec finitions marbre et laiton',
   },
   {
@@ -52,7 +53,7 @@ export const CATEGORIES: Category[] = [
     shortName: 'Soudure',
     description:
       'Postes à souder, meuleuses d’angle, électrodes rutile, disques de tronçonnage et accessoires pour artisans métalliers.',
-    image: '/images/categories/soudure-metallerie.jpg',
+    image: asset('/images/categories/soudure-metallerie.jpg'),
     imageAlt: 'Travaux de soudure et métallerie professionnelle',
   },
 ];
