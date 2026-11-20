@@ -55,6 +55,7 @@ export function ProductCard({ product, onOpenDetail }: ProductCardProps) {
 
           <a
             href={getProductWhatsAppUrl(product.name, {
+              productId: product.id,
               brand: product.brand,
               reference: product.reference,
               categoryName: category?.name,

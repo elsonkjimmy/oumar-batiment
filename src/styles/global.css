@@ -1187,6 +1187,156 @@ button {
   margin: 0;
 }
 
+/* Commande & Configuration WhatsApp M. Oumar */
+.order-customizer-box {
+  background: linear-gradient(135deg, rgba(236, 248, 243, 0.75), rgba(255, 255, 255, 0.95));
+  border: 1.5px solid var(--color-emerald-200);
+  border-radius: 18px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.customizer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.customizer-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--color-emerald-950);
+}
+
+.customizer-badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background-color: var(--color-emerald-100);
+  color: var(--color-emerald-800);
+}
+
+.customizer-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.customizer-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-ink-700);
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.qty-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border-strong);
+  background-color: #ffffff;
+  color: var(--color-ink-900);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.qty-btn:active {
+  transform: scale(0.92);
+  background-color: var(--color-surface-muted);
+}
+
+.qty-input {
+  width: 65px;
+  height: 38px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border-strong);
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-ink-900);
+  background-color: #ffffff;
+}
+
+.qty-unit {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-emerald-900);
+}
+
+.request-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.request-pill {
+  font-size: 0.78rem;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border-strong);
+  background-color: #ffffff;
+  color: var(--color-ink-700);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.request-pill.active {
+  background-color: var(--color-emerald-800);
+  border-color: var(--color-emerald-800);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.customizer-input {
+  width: 100%;
+  padding: 9px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border-strong);
+  font-size: 0.85rem;
+  color: var(--color-ink-900);
+  background-color: #ffffff;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.customizer-input:focus {
+  border-color: var(--color-emerald-700);
+}
+
+.customizer-preview-hint {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.75rem;
+  color: var(--color-emerald-900);
+  background-color: rgba(16, 185, 129, 0.1);
+  padding: 7px 10px;
+  border-radius: 8px;
+}
+
+.preview-indicator {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #10b981;
+  display: inline-block;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
+}
+
 .modal-bottom-bar {
   display: flex;
   align-items: center;
