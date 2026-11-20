@@ -35,3 +35,6 @@ Ce document répertorie l'origine des photographies utilisées sur le site vitri
 | Quincaillerie générale | Assortiment de visserie et boulonnerie | `public/images/products/visserie-boulonnerie.jpg` | Unsplash `photo-1536842409491-b3bbde0e3b66` |
 | Soudure & métallerie | Travaux de soudure à l'arc et métallerie | `public/images/products/soudure-electrodes.jpg` | Unsplash `photo-1563229708-55d0a600b01d` |
 | Soudure & métallerie | Atelier de soudure et travail du métal | `public/images/categories/soudure-metallerie.jpg` | Unsplash `photo-1504307651254-35680f356dfd` |
+| Électricité bâtiment | Tableau électrique modulaire & disjoncteurs | `public/images/products/tableau-disjoncteurs.jpg` | Unsplash `photo-1558346490-a72e53ae2d4f` |
+| Plomberie & sanitaire | Tuyauterie PVC & raccordement sanitaire | `public/images/products/evacuation-sanitaire.jpg` | Unsplash `photo-1585704032915-c3400ca199e7` |
+| Décoration & finition | Peinture bâtiment, rouleaux et pinceaux de finition | `public/images/products/peinture-finition.jpg` | Unsplash `photo-1589939705384-5185137a7f0f` |
