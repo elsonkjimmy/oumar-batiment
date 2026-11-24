@@ -259,6 +259,15 @@ button {
   text-transform: uppercase;
   color: var(--color-ink-500);
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 170px;
+}
+
+@media (max-width: 380px) {
+  .brand-subtitle {
+    max-width: 130px;
+  }
 }
 
 .desktop-nav {
@@ -392,10 +401,13 @@ button {
 }
 
 .hero-content {
-  padding: 28px 22px 26px;
+  padding: 24px 18px 22px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 @media (min-width: 900px) {
@@ -452,6 +464,8 @@ button {
 
 .hero-cta-group .btn {
   width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 @media (min-width: 480px) {
@@ -920,9 +934,11 @@ button {
 
 .product-actions .btn {
   min-height: 44px;
-  padding: 8px 12px;
-  font-size: 0.84rem;
+  padding: 8px 6px;
+  font-size: 0.8rem;
+  gap: 4px;
   border-radius: 12px;
+  box-sizing: border-box;
 }
 
 /* Pillars */
