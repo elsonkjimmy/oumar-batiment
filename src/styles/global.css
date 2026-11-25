@@ -1,5 +1,23 @@
 @import './tokens.css';
 
+/* Suppression totale du badge/filigrane Netlify */
+#nl-badge-frame,
+#nl-hud-frame,
+iframe[id*="nl-"],
+iframe[srcdoc*="Netlify"],
+iframe[srcdoc*="netlify"],
+iframe[srcdoc*="Powered by"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  position: absolute !important;
+  left: -9999px !important;
+  clip-path: inset(100%) !important;
+}
+
 *,
 *::before,
 *::after {
