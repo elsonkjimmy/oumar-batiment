@@ -2,6 +2,9 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import legacy from '@vitejs/plugin-legacy';
 
+const isNetlify = Boolean(process.env.NETLIFY);
+const isGitHubPages = Boolean(process.env.GITHUB_ACTIONS && !process.env.NETLIFY);
+
 export default defineConfig({
   plugins: [
     react(),
@@ -18,7 +21,7 @@ export default defineConfig({
       additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
     }),
   ],
-  base: '/oumar-batiment/',
+  base: isNetlify ? '/' : (isGitHubPages ? '/oumar-batiment/' : '/'),
   server: {
     host: '0.0.0.0',
     port: 5173,
